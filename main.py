@@ -1,3 +1,5 @@
+Name:Agustin Francicetti Caceres.      Date: november 19, 2024.    period: 1st
+
 #(1)Define the base price of the pizza and the price for each topping.
 #(2)Parse the user input to identify which toppings are included, ensuring that we only count each topping once.
 #(3)Calculate the total price by adding the base price and the price of the toppings.
