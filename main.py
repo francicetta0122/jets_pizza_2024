@@ -8,7 +8,6 @@ Name:Agustin Francicetti Caceres.      Date: november 19, 2024.    period: 1st
 
 
 Here's the Python code that implements this logic:
-
 def calculate_pizza_price(toppings_input):
     # Define the base price and topping prices
     base_price = 15.00
@@ -25,7 +24,7 @@ def calculate_pizza_price(toppings_input):
     
     # Calculate the total price from unique toppings
     total_topping_price = sum(topping_prices[topping] for topping in unique_toppings if topping in topping_prices)
-    
+
     # Calculate the final price
     total_price = base_price + total_topping_price
     
@@ -42,6 +41,7 @@ def calculate_pizza_price(toppings_input):
 # Example usage
 input1 = "TPM"
 output1 = calculate_pizza_price(input1)
+    
 print(output1)  # Expected output: 22.56
 
 input2 = "AAAAAAAMMTGTMMMXMMT"
