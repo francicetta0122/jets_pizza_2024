@@ -7,7 +7,7 @@ Name:Agustin Francicetti Caceres.      Date: november 19, 2024.    period: 1st
 #(5)Format the final price to two decimal places without the dollar sign.
 
 
-Here's the Python code that implements this logic:
+# Here's the Python code that implements this logic:
 def calculate_pizza_price(toppings_input):
     # Define the base price and topping prices
     base_price = 15.00
