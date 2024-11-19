@@ -50,17 +50,3 @@ print(output2)  # Expected output: 19.62
 
 
 
-Explanation of the Code:
--We define the base price of the pizza and the prices for each topping in a dictionary.
-
--We convert the input string of toppings into a set to automatically filter out duplicate toppings.
-
--We calculate the total price of the toppings by summing their prices based on the unique toppings.
-
--We then check if the total price exceeds $20 to apply a 5% discount if necessary.
-
--Finally, we round the price to two decimal places and format it as a string for output.
-
-                                                                            
-                                                                            
-*This code will correctly compute the price of a pizza based on the user's topping preferences, handling duplicates and ignoring invalid characters.
